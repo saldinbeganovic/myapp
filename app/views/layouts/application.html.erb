@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <div class="navbar">
+      <%=link_to "Domov", root_path%>
+      <%= display_navbar_options %>
+    </div>
+    <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
     <%= yield %>
   </body>
 </html>
