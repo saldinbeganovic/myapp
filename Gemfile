@@ -32,6 +32,9 @@ gem 'devise' #autentikacija uporabnika
 
 gem 'commontator'
 
+gem 'jwt'
+
+gem 'simple_command'
 
 
 group :development, :test do
